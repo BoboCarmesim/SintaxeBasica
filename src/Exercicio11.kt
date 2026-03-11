@@ -1,10 +1,10 @@
-fun celsiusParaFahrenheit(celsius: Double): Double {
-    return (celsius * 1.8) + 32
+fun celFaren(celcius: Double): Double {
+    return (celcius * 1.8) + 32
 }
 
 fun main() {
-    val tempCelsius = 35.0
-    val tempFahrenheit = celsiusParaFahrenheit(tempCelsius)
+    val tempCel = 35.0
+    val tempF = celFaren(tempCel)
 
-    println("$tempCelsius°C equivale a $tempFahrenheit°F")
+    println("$tempCel°C equivale a $tempF°F")
 }
